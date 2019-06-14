@@ -1,0 +1,270 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: linear-gradient(#939eaf,#b1bbcc,#d0d8e5);
+}
+
+#canvas {
+  margin-left: 25vw;
+  margin-top: 0vh;
+
+}
+.info {
+  background-color: white;
+  width: 50vw;
+}
+div {
+  border-radius: 5px;
+  padding: 10px;
+}
+.nlkey:hover {
+  background-color: gray;
+  border: 1px solid white;
+
+}
+
+
+
+p {
+  margin-left: 15px;
+}
+
+.br p {
+
+  margin-left: 1px;
+}
+
+.cmd p {
+  margin-top: 20px;
+  margin-left: 1px;
+}
+
+.board {
+  width: 1100px;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.row {
+  float:left;
+}
+
+.space {
+  width: 275px;
+  height: 40px;
+  color: black;
+  background-color: white;
+  border: 1px solid #0f1114;
+  float: left;
+  margin: 2px;
+}
+
+.space:hover {
+  background-color: grey;
+  border: 1px solid white;
+}
+
+.cmd {
+  width: 50px;
+  height: 40px;
+  color: black;
+background-color: white;
+  border: 1px solid #0f1114;
+  float: left;
+  margin: 2px;
+}
+
+.cmd:hover {
+  background-color: gray;
+  border: 1px solid white;
+}
+
+.br {
+  width: 50px;
+  height: 40px;
+color: black;
+background-color: white;
+    border: 1px solid #0f1114;
+  float: left;
+  margin: 2px;
+}
+
+.br:hover {
+  background-color: gray;
+  border: 1px solid white;
+}
+
+.p {
+  width: 40px;
+color: black;
+  background-color: white;
+    border: 1px solid #0f1114;
+  height: 10px;
+  float: left;
+  margin: 2px;
+  margin-top: 25px;
+  position: static;
+}
+
+.p:hover {
+  background-color: gray;
+  border: 1px solid white;
+}
+
+#esc {
+  margin-left: 10px;
+}
+
+.u {
+  width: 40px;
+color: black;
+  background-color: white;
+    border: 1px solid #0f1114;
+  height: 10px;
+  margin-left: 824.5px;
+  margin-top: -15px;
+  position: absolute;
+}
+
+.del {
+  width: 20px;
+color: black;
+  background-color: white;
+  border-bottom: 1px solid #0f1114;
+  border-left: 1px solid #0f1114;
+  border-right: 1px solid #0f1114;
+  border-top: 1px solid #0f1114;
+  height: 67px;
+  margin-left: 910px;
+  margin-top: -110px;
+  position: relative;
+}
+.del2 {
+  width: 40px;
+color: black;
+  background-color: white;
+  border-bottom: none;
+  border-left: 1px solid #0f1114;
+  border-right: 1px solid #0f1114;
+  border-top: 1px solid #0f1114;
+  height: 40px;
+  margin-left: 890px;
+  margin-top: -143px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.u:hover {
+  background-color: gray;
+  border: 1px solid white;
+}
+
+.shift {
+  width: 70px;
+  height: 40px;
+color: black;
+  background-color: white;
+    border: 1px solid #0f1114;
+  position: static;
+  float: left;
+  margin: 2px;
+}
+
+.shift:hover {
+  background-color: gray;
+  border: 1px solid white;
+}
+
+.del:hover {
+  background-color: gray;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+
+}
+.del2:hover {
+  background-color: gray;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid gray;
+}
+
+.b {
+  width: 65px;
+  height: 40px;
+color: black;
+background-color: white;
+    border: 1px solid #0f1114;
+  position: static;
+  float: left;
+  margin: 2px;
+}
+
+.b:hover {
+  background-color: gray;
+  border: 1px solid white;
+}
+
+.c {
+  width: 110px;
+  height: 40px;
+color: black;
+ background-color: white;
+    border: 1px solid #0f1114;
+  position: static;
+  float: left;
+  margin: 2px;
+}
+
+.c:hover {
+  background-color: gray;
+  border: 1px solid white;
+}
+
+.caps {
+  width: 80px;
+  height: 40px;
+ color: black;
+  background-color: white;
+  border: 1px solid #0f1114;
+  position: static;
+  float: left;
+  margin: 2px;
+}
+
+.caps:hover {
+  background-color: gray;
+  border: 1px solid white;
+}
+
+.top {
+  width: 39px;
+color: black;
+  background-color: white;
+  border: 1px solid #0f1114;
+  height: 10px;
+  float: left;
+  margin: 3.5px;
+
+  position: static;
+}
+
+.top:hover {
+  background-color: gray;
+  border: 1px solid white;
+}
+
+.nlkey {
+  width: 40px;
+  color: black;
+  background-color: white;
+  border: 1px solid #0f1114;
+  height: 40px;
+  float: left;
+  margin: 2px;
+  position: static;
+}
